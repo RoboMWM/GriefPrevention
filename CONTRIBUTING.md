@@ -19,7 +19,7 @@ Thank you for your contribution!
 ## AI
 
 - [Meat proxies](https://nomeatproxy.com/) are disallowed. Please type your own comments.
-- AI must follow all instructions in `AGENTS.md`
+- AI must follow all instructions in [AGENTS.md](AGENTS.md)
 
 From https://gruhn.me/blog/2026-08-03/
 
