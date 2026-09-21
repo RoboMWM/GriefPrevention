@@ -1,6 +1,6 @@
 # Pull Requests
 
-- All code changes must follow Ponytail. If code already exists before reading this file, discard your changes and restart at Ponytail rung 1.
+- All code changes must follow Ponytail. If changes already exist before reading this file, discard your changes and restart at Ponytail rung 1.
 - Commit descriptions must be attributed with the AI model used, verbatim user prompts, and caveman-formatted AI output used in the commit.
 - All code changes must adhere to these objectives: https://github.com/GriefPrevention/GriefPrevention/discussions/2065 
 - PR must be a small, focused change.
