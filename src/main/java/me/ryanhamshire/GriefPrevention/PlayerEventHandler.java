@@ -1922,6 +1922,7 @@ class PlayerEventHandler implements Listener
                     || materialInHand == Material.INK_SAC
                     || materialInHand == Material.GLOW_INK_SAC
                     || materialInHand == Material.HONEYCOMB
+                    || materialInHand == Material.SULFUR_CUBE_BUCKET
                     || dyes.contains(materialInHand)
                     || Tag.ITEMS_CUSHIONS.isTagged(materialInHand)))
             {
