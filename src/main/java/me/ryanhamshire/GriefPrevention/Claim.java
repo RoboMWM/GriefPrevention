@@ -27,7 +27,6 @@ import org.bukkit.Material;
 import org.bukkit.World;
 import org.bukkit.entity.Player;
 import org.bukkit.event.Event;
-import org.bukkit.event.HandlerList;
 import org.bukkit.event.block.BlockBreakEvent;
 import org.bukkit.event.block.BlockEvent;
 import org.bukkit.event.block.BlockPlaceEvent;
@@ -495,7 +494,7 @@ public class Claim
             {
                 builders.add(entry.getKey());
             }
-            else if (entry.getValue() == ClaimPermission.Container || entry.getValue() == ClaimPermission.Inventory)
+            else if (entry.getValue() == ClaimPermission.Container)
             {
                 containers.add(entry.getKey());
             }
