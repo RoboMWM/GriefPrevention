@@ -602,20 +602,6 @@ public class Claim
         return new BoundingBox(this).intersects(new BoundingBox(otherClaim));
     }
 
-    @Deprecated(since = "17.0.0", forRemoval = true)
-    @Contract("_ -> null")
-    public @Nullable String allowMoreEntities(boolean remove)
-    {
-        return null;
-    }
-
-    @Deprecated(since = "17.0.0", forRemoval = true)
-    @Contract("-> null")
-    public @Nullable String allowMoreActiveBlocks()
-    {
-        return null;
-    }
-
     //implements a strict ordering of claims, used to keep the claims collection sorted for faster searching
     boolean greaterThan(Claim otherClaim)
     {
